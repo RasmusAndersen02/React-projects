@@ -5,7 +5,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <Vertex></Vertex>
+    <div style={{ position: 'relative', width: '100vw', height: '100vh' }}>
+      <Vertex></Vertex>
+  </div>
+
   )
 }
 
